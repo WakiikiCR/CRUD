@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli('localhost', 'root', '', 'ca221');
+$conn = new mysqli('localhost', 'root', '', 'ca227');
 
 if ($conn->connect_error) {
     die("Connection Error!");
@@ -71,6 +71,7 @@ else {
 else {
     echo "Query Error! " . $conn->error;
 }
+
 
 
 
